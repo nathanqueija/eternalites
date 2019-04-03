@@ -2,7 +2,7 @@ const withSass = require("@zeit/next-sass");
 const webpack = require("webpack");
 
 const debug = process.env.NODE_ENV !== "production";
-const assetPrefix = isProd ? "/eternalites" : "";
+const assetPrefix = !debug ? "/eternalites" : "";
 module.exports = withSass({
   cssModules: true,
   webpack(config, { buildId, dev, isServer, defaultLoaders, webpack }) {
