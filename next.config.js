@@ -1,5 +1,4 @@
 const withSass = require("@zeit/next-sass");
-const webpack = require("webpack");
 
 const debug = process.env.NODE_ENV !== "production";
 const assetPrefix = !debug ? "/eternalites" : "";
