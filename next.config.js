@@ -1,5 +1,7 @@
 const withSass = require("@zeit/next-sass");
 
+const debug = process.env.NODE_ENV !== "production";
+
 module.exports = withSass({
   cssModules: true,
   webpack(config, { buildId, dev, isServer, defaultLoaders, webpack }) {
@@ -19,5 +21,11 @@ module.exports = withSass({
       ...aliases
     };
     return config;
-  }
+  },
+  exportPathMap: function() {
+    return {
+      "/": { page: "/" }
+    };
+  },
+  assetPrefix: !debug ? "/eternalites/" : ""
 });
