@@ -135,7 +135,7 @@ export default class Scroll extends Component {
           </div>
         </div>
         <div id="scene3" className={scene}>
-          <img id="girl" src="/static/girl.jpg" />
+          <img id="girl" src={`${process.env.ASSET_PREFIX}/static/girl.jpg`} />
         </div>
         {/* <div className={placeholder} />
         <div id="scrollStarts">

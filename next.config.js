@@ -1,7 +1,8 @@
 const withSass = require("@zeit/next-sass");
+const webpack = require("webpack");
 
 const debug = process.env.NODE_ENV !== "production";
-
+const assetPrefix = isProd ? "/eternalites" : "";
 module.exports = withSass({
   cssModules: true,
   webpack(config, { buildId, dev, isServer, defaultLoaders, webpack }) {
@@ -20,6 +21,12 @@ module.exports = withSass({
       ...config.resolve.alias,
       ...aliases
     };
+
+    config.plugins.push(
+      new webpack.DefinePlugin({
+        "process.env.ASSET_PREFIX": JSON.stringify(assetPrefix)
+      })
+    );
     return config;
   },
   exportPathMap: function() {
@@ -27,5 +34,5 @@ module.exports = withSass({
       "/": { page: "/" }
     };
   },
-  assetPrefix: !debug ? "/eternalites/" : ""
+  assetPrefix
 });
