@@ -1,0 +1,187 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.vLaAwvOGR3q3cUj84eJIs {
+  height: 500px;
+  background: lightblue; }
+
+._32Osq4zopuS2BMj71tGyqx {
+  width: 200px;
+  height: 200px;
+  background: blue; }
+
+._1t3mJYpD_TRaC2l-ae8ZIj {
+  display: flex; }
+
+._3Z3RZt1uFu61gJtiIBHsE1 {
+  background: #e08f41;
+  height: 300vh; }
+
+._3Yee8_L2KGdOE3D9BmOD6B {
+  background: #54817c;
+  color: white;
+  font-size: 60px;
+  display: flex;
+  padding: 20px;
+  justify-content: center; }
+
+._2Tl-kEau8lMsYV6pbzmocs {
+  height: 100vh;
+  border-bottom: 2px dashed #54817c; }
+
+._2Tl-kEau8lMsYV6pbzmocs:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+._2Tl-kEau8lMsYV6pbzmocs:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+._2Tl-kEau8lMsYV6pbzmocs:nth-child(3) {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  ._2Tl-kEau8lMsYV6pbzmocs:nth-child(3) img {
+    width: 100%;
+    height: 100%;
+    opacity: 0; }
+
+._3K2NGR4bpnf0dcxmj6kPY6 {
+  width: 250px;
+  height: 250px;
+  background: lightgreen;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/
